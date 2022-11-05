@@ -72,7 +72,27 @@ namespace ETrade.DataAccess.Concrete.EFCore
 
         public void Update(Product entity, int[] categoryIds)
         {
-            throw new NotImplementedException();
+            using (var context = new DataContext())
+            {
+                var product = context.Products.Include(i=>i.ProductCategories).FirstOrDefault(i => i.Id == entity.Id);
+
+                if(product != null)
+                {
+                    context.Images.RemoveRange(context.Images.Where(i => i.ProductId == entity.Id).ToList());
+                    product.Price = entity.Price;
+                    product.Name = entity.Name;
+                    product.Description = entity.Description;
+                    product.ProductCategories = categoryIds.Select(catId => new ProductCategory()
+                    {
+                        ProductId = entity.Id,
+                        CategoryId = catId
+                    }).ToList();
+
+                    product.Images = entity.Images;
+                }
+
+                context.SaveChanges();
+            }
         }
         public override void Delete(Product entity)
         {

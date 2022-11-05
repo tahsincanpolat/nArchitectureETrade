@@ -13,3 +13,5 @@ D:\TahsinCanpolat\Web\repos\nETrade\ETrade\ETrade.DataAccess\obj\Debug\net6.0\ET
 D:\TahsinCanpolat\Web\repos\nETrade\ETrade\ETrade.DataAccess\obj\Debug\net6.0\refint\ETrade.DataAccess.dll
 D:\TahsinCanpolat\Web\repos\nETrade\ETrade\ETrade.DataAccess\obj\Debug\net6.0\ETrade.DataAccess.pdb
 D:\TahsinCanpolat\Web\repos\nETrade\ETrade\ETrade.DataAccess\obj\Debug\net6.0\ref\ETrade.DataAccess.dll
+D:\TahsinCanpolat\Web\repos\nETrade\ETrade\ETrade.DataAccess\bin\Debug\net6.0\ETrade.DataAccess.runtimeconfig.json
+D:\TahsinCanpolat\Web\repos\nETrade\ETrade\ETrade.DataAccess\obj\Debug\net6.0\ETrade.DataAccess.genruntimeconfig.cache
