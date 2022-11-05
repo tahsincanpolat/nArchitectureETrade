@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ETrade.DataAccess", "ETrade
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETrade.Business", "ETrade.Business\ETrade.Business.csproj", "{A004C59B-852E-42A7-A8C7-D419210820E5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETrade.WebUI", "ETrade.WebUI\ETrade.WebUI.csproj", "{76A79D0C-012C-4DC1-8DC4-83F3B93DFAC1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{A004C59B-852E-42A7-A8C7-D419210820E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A004C59B-852E-42A7-A8C7-D419210820E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A004C59B-852E-42A7-A8C7-D419210820E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76A79D0C-012C-4DC1-8DC4-83F3B93DFAC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76A79D0C-012C-4DC1-8DC4-83F3B93DFAC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76A79D0C-012C-4DC1-8DC4-83F3B93DFAC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76A79D0C-012C-4DC1-8DC4-83F3B93DFAC1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,8 @@
+D:\TahsinCanpolat\Web\repos\nETrade\ETrade\ETrade.WebUI\obj\Debug\net6.0\ETrade.WebUI.csproj.AssemblyReference.cache
+D:\TahsinCanpolat\Web\repos\nETrade\ETrade\ETrade.WebUI\obj\Debug\net6.0\ETrade.WebUI.GeneratedMSBuildEditorConfig.editorconfig
+D:\TahsinCanpolat\Web\repos\nETrade\ETrade\ETrade.WebUI\obj\Debug\net6.0\ETrade.WebUI.AssemblyInfoInputs.cache
+D:\TahsinCanpolat\Web\repos\nETrade\ETrade\ETrade.WebUI\obj\Debug\net6.0\ETrade.WebUI.AssemblyInfo.cs
+D:\TahsinCanpolat\Web\repos\nETrade\ETrade\ETrade.WebUI\obj\Debug\net6.0\ETrade.WebUI.csproj.CoreCompileInputs.cache
+D:\TahsinCanpolat\Web\repos\nETrade\ETrade\ETrade.WebUI\obj\Debug\net6.0\ETrade.WebUI.MvcApplicationPartsAssemblyInfo.cache
+D:\TahsinCanpolat\Web\repos\nETrade\ETrade\ETrade.WebUI\obj\Debug\net6.0\ETrade.WebUI.RazorAssemblyInfo.cache
+D:\TahsinCanpolat\Web\repos\nETrade\ETrade\ETrade.WebUI\obj\Debug\net6.0\ETrade.WebUI.RazorAssemblyInfo.cs
