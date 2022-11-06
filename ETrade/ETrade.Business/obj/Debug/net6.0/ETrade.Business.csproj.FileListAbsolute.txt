@@ -1,0 +1,17 @@
+D:\TahsinCanpolat\Web\repos\nETrade\ETrade\ETrade.Business\bin\Debug\net6.0\ETrade.Business.deps.json
+D:\TahsinCanpolat\Web\repos\nETrade\ETrade\ETrade.Business\bin\Debug\net6.0\ETrade.Business.dll
+D:\TahsinCanpolat\Web\repos\nETrade\ETrade\ETrade.Business\bin\Debug\net6.0\ETrade.Business.pdb
+D:\TahsinCanpolat\Web\repos\nETrade\ETrade\ETrade.Business\bin\Debug\net6.0\ETrade.DataAccess.dll
+D:\TahsinCanpolat\Web\repos\nETrade\ETrade\ETrade.Business\bin\Debug\net6.0\ETrade.Entities.dll
+D:\TahsinCanpolat\Web\repos\nETrade\ETrade\ETrade.Business\bin\Debug\net6.0\ETrade.DataAccess.pdb
+D:\TahsinCanpolat\Web\repos\nETrade\ETrade\ETrade.Business\bin\Debug\net6.0\ETrade.Entities.pdb
+D:\TahsinCanpolat\Web\repos\nETrade\ETrade\ETrade.Business\obj\Debug\net6.0\ETrade.Business.csproj.AssemblyReference.cache
+D:\TahsinCanpolat\Web\repos\nETrade\ETrade\ETrade.Business\obj\Debug\net6.0\ETrade.Business.GeneratedMSBuildEditorConfig.editorconfig
+D:\TahsinCanpolat\Web\repos\nETrade\ETrade\ETrade.Business\obj\Debug\net6.0\ETrade.Business.AssemblyInfoInputs.cache
+D:\TahsinCanpolat\Web\repos\nETrade\ETrade\ETrade.Business\obj\Debug\net6.0\ETrade.Business.AssemblyInfo.cs
+D:\TahsinCanpolat\Web\repos\nETrade\ETrade\ETrade.Business\obj\Debug\net6.0\ETrade.Business.csproj.CoreCompileInputs.cache
+D:\TahsinCanpolat\Web\repos\nETrade\ETrade\ETrade.Business\obj\Debug\net6.0\ETrade.Business.csproj.CopyComplete
+D:\TahsinCanpolat\Web\repos\nETrade\ETrade\ETrade.Business\obj\Debug\net6.0\ETrade.Business.dll
+D:\TahsinCanpolat\Web\repos\nETrade\ETrade\ETrade.Business\obj\Debug\net6.0\refint\ETrade.Business.dll
+D:\TahsinCanpolat\Web\repos\nETrade\ETrade\ETrade.Business\obj\Debug\net6.0\ETrade.Business.pdb
+D:\TahsinCanpolat\Web\repos\nETrade\ETrade\ETrade.Business\obj\Debug\net6.0\ref\ETrade.Business.dll

@@ -18,6 +18,7 @@ namespace ETrade.DataAccess.Concrete.EFCore
                 context.Set<T>().Add(entity);
                 context.SaveChanges();
             }
+
         }
 
         public virtual void Delete(T entity)
