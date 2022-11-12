@@ -71,3 +71,4 @@ D:\TahsinCanpolat\Web\repos\nETrade\ETrade\ETrade.WebUI\obj\Debug\net6.0\refint\
 D:\TahsinCanpolat\Web\repos\nETrade\ETrade\ETrade.WebUI\obj\Debug\net6.0\ETrade.WebUI.pdb
 D:\TahsinCanpolat\Web\repos\nETrade\ETrade\ETrade.WebUI\obj\Debug\net6.0\ETrade.WebUI.genruntimeconfig.cache
 D:\TahsinCanpolat\Web\repos\nETrade\ETrade\ETrade.WebUI\obj\Debug\net6.0\ref\ETrade.WebUI.dll
+D:\TahsinCanpolat\Web\repos\nETrade\ETrade\ETrade.WebUI\bin\Debug\net6.0\Newtonsoft.Json.dll

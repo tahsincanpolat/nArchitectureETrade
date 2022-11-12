@@ -1,8 +1,11 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+﻿@using ETrade.WebUI.Models
+@model ProductListModel
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="row">
+    <div>
+        @foreach (var item in Model.Products)
+        {
+            <h3>@item.Name</h3>
+        }
+    </div>
 </div>

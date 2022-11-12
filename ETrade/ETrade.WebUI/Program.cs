@@ -10,9 +10,7 @@ using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
-
 builder.Services.AddDbContext<ApplicationIdentityDbContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("IdentityConnection"));
@@ -41,15 +39,15 @@ builder.Services.Configure<IdentityOptions>(options =>
 
     options.User.RequireUniqueEmail = true;
     options.SignIn.RequireConfirmedEmail = true;    
-    options.SignIn.RequireConfirmedPhoneNumber = true;
+    options.SignIn.RequireConfirmedPhoneNumber = false;
 
 });
 
 
 builder.Services.ConfigureApplicationCookie(options => {
-    options.AccessDeniedPath = "account/accessdenied";
-    options.LoginPath = "Account/Login";
-    options.LogoutPath = "Account/Logout";
+    options.AccessDeniedPath = "/account/accessdenied";
+    options.LoginPath = "/Account/Login";
+    options.LogoutPath = "/Account/Logout";
     options.ExpireTimeSpan = TimeSpan.FromMinutes(60);
     options.SlidingExpiration = true;
     options.Cookie = new CookieBuilder()
@@ -71,8 +69,7 @@ builder.Services.AddMvc().SetCompatibilityVersion(Microsoft.AspNetCore.Mvc.Compa
 var app = builder.Build();
 
 
-//SeedDatabase yazýlacak
-
+SeedDatabase.Seed();
 app.UseStaticFiles();
 app.CustomStaticFiles();  // örneðin bootstrap node_modules aracýðýlýðýyla projeye dahil ediyoruz.
 app.UseAuthentication();

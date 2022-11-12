@@ -1,26 +1,24 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using System.Diagnostics;
+﻿using ETrade.Business.Abstract;
+using ETrade.WebUI.Models;
+using Microsoft.AspNetCore.Mvc;
 
 namespace ETrade.WebUI.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private IProductService _productService;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(IProductService productService) // Injection
         {
-            _logger = logger;
+            _productService = productService;
         }
 
         public IActionResult Index()
         {
-            return View();
+            return View(new ProductListModel() { Products = _productService.GetAll() });
         }
 
-        public IActionResult Privacy()
-        {
-            return View();
-        }
+ 
 
        
     }

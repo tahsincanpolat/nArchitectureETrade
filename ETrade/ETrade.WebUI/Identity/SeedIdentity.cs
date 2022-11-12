@@ -8,7 +8,7 @@ namespace ETrade.WebUI.Identity
         {
             var username = configuration["Data:AdminUser:username"];
             var password = configuration["Data:AdminUser:password"];
-            var mail = configuration["Data:AdminUser:mail"];
+            var email = configuration["Data:AdminUser:email"];
             var role = configuration["Data:AdminUser:role"];
 
             if(await userManager.FindByNameAsync(username) == null)
@@ -18,12 +18,12 @@ namespace ETrade.WebUI.Identity
                 var user = new ApplicationUser()
                 {
                     UserName = username,
-                    Email = mail,
+                    Email = email,
                     FullName = "Admin User",
-                    EmailConfirmed = false,
+                    EmailConfirmed = true,
                 };
 
-                var result = await userManager.CreateAsync(user);
+                var result = await userManager.CreateAsync(user, password);
                 if (result.Succeeded)
                 {
                     await userManager.AddToRoleAsync(user,role);
