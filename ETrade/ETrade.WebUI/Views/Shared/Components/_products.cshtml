@@ -1,0 +1,19 @@
+﻿@using ETrade.Entities
+@model Product
+<div class="col-md-4 mt-3">
+    <div class="card">
+        <img src="" alt="@Model.Name" />
+    </div>
+    <div class="card-body">
+        <h4 class="card-title">
+            <a href="#">@Model.Name</a>
+        </h4>
+        <small class="text-muted">
+            <i class="fas fa-liras-sign"></i> @Model.Price
+        </small>
+    </div>
+    <div class="card-footer">
+        <a asp-controller="Shop" asp-action="Detail" asp-route-id="@Model.Id" class="btn btn-outline-primary btn-sm" >Details</a>
+        <a href="#" class="btn btn-outline-primary btn-sm ml-3" >Add To Cart</a>
+    </div>
+</div>

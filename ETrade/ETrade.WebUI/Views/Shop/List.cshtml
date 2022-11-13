@@ -1,0 +1,22 @@
+﻿@using ETrade.Entities
+@using ETrade.WebUI.Models
+@model ProductListModel
+@{
+    ViewData["Title"] = "List";
+}
+
+<div class="row">
+    <div class="col-md-3">
+        @await Component.InvokeAsync("CategoryList")
+    </div>
+    <div class="col-md-9">
+        <div class="row">
+            @foreach (Product item in Model.Products)
+            {
+                <partial name="_products" for="@item"/>
+            }
+        </div>
+        <div page-modal="@Model.PageInfo"></div>
+    </div>
+</div>
+

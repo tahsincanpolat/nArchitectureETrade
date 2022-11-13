@@ -7,9 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ETrade.Entities", "ETrade.E
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ETrade.DataAccess", "ETrade.DataAccess\ETrade.DataAccess.csproj", "{9029B39F-30E5-4D7E-A814-369B9C4159A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETrade.Business", "ETrade.Business\ETrade.Business.csproj", "{A004C59B-852E-42A7-A8C7-D419210820E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ETrade.Business", "ETrade.Business\ETrade.Business.csproj", "{A004C59B-852E-42A7-A8C7-D419210820E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETrade.WebUI", "ETrade.WebUI\ETrade.WebUI.csproj", "{76A79D0C-012C-4DC1-8DC4-83F3B93DFAC1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ETrade.WebUI", "ETrade.WebUI\ETrade.WebUI.csproj", "{76A79D0C-012C-4DC1-8DC4-83F3B93DFAC1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
