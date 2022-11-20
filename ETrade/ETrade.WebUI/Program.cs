@@ -20,9 +20,9 @@ builder.Services.AddIdentity<ApplicationUser,IdentityRole>()
     .AddEntityFrameworkStores<ApplicationIdentityDbContext>()
     .AddDefaultTokenProviders();
 
-// Seed Identity parameters
-var userManager = builder.Services.BuildServiceProvider().GetService <UserManager<ApplicationUser>>();
-var roleManager = builder.Services.BuildServiceProvider().GetService<RoleManager<IdentityRole>>();
+
+UserManager<ApplicationUser>? userManager = builder.Services.BuildServiceProvider().GetService<UserManager<ApplicationUser>>();
+RoleManager<IdentityRole>? roleManager = builder.Services.BuildServiceProvider().GetService<RoleManager<IdentityRole>>();
 
 builder.Services.Configure<IdentityOptions>(options =>
 {

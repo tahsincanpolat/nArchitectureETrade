@@ -1,5 +1,5 @@
-﻿@using ETrade.WebUI.Models
-@model CategoryListViewModel
+﻿@model CategoryListViewModel
+
 
 <ul class="list-group">
     @foreach (var item in Model.Categories)
@@ -10,6 +10,8 @@
             asp-route-category="@item.Name.ToLower()"
             class="list-group-item list-group-item-action @(Model.SelectedCategory==item.Name.ToLower()?"active":"")">
             @item.Name
-        </a>
+            </a>
     }
+   
+
 </ul>

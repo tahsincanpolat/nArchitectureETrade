@@ -1,0 +1,3 @@
+wwwroot -> img klasörü
+taghelper 
+view

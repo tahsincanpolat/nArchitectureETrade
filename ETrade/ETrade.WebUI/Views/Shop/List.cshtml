@@ -1,6 +1,4 @@
-﻿@using ETrade.Entities
-@using ETrade.WebUI.Models
-@model ProductListModel
+﻿@model ProductListModel
 @{
     ViewData["Title"] = "List";
 }
@@ -10,13 +8,15 @@
         @await Component.InvokeAsync("CategoryList")
     </div>
     <div class="col-md-9">
+  
         <div class="row">
             @foreach (Product item in Model.Products)
             {
-                <partial name="_products" for="@item"/>
+                <partial name="_products" for="@item" />
             }
         </div>
-        <div page-modal="@Model.PageInfo"></div>
+        <div page-model="@Model.PageInfo"></div>
     </div>
 </div>
+
 
