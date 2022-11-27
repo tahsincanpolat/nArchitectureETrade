@@ -1,0 +1,18 @@
+{
+  "version": "1.0.0",
+  "name": "etrade",
+  "private": true,
+  "devDependencies": {},
+  "dependencies": {
+    "bootstrap": "^3.4.1",
+    "font-awesome": "^4.6.1",
+    "jquery": "^2.2.3"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

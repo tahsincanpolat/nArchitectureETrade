@@ -1,0 +1,3 @@
+D:\TahsinCanpolat\Web\repos\nETrade\ETrade\ETrade.Entities\bin\Debug\net6.0\publish\ETrade.Entities.dll
+D:\TahsinCanpolat\Web\repos\nETrade\ETrade\ETrade.Entities\bin\Debug\net6.0\publish\ETrade.Entities.deps.json
+D:\TahsinCanpolat\Web\repos\nETrade\ETrade\ETrade.Entities\bin\Debug\net6.0\publish\ETrade.Entities.pdb
